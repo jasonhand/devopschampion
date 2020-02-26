@@ -6,12 +6,18 @@ layout: home
 search: exclude
 ---
 
-This site is built with [fastpages](https://github.com/fastai/fastpages), An easy to use blogging platform with extra features for Jupyter Notebooks.
+# Responding to Incidents
 
-![](images/diagram.png "https://github.com/fastai/fastpages")
+Your systems are down!
 
-[fastpages](https://github.com/fastai/fastpages) automates the process of creating blog posts via GitHub Actions, so you don't have to fuss with conversion scripts.  A full list of features can be found on [GitHub](https://github.com/fastai/fastpages).  
+Customers are calling. Every moment counts.
 
-You can edit the `index.md` file to change this content.
+What do you do?  
+
+Handling incidents well is core to meeting your reliability goals.
+
+In this session, we will explore incident management best practices that will help you triage, remediate, and communicate as effectively as possible.
+
+We will also explore the tools Azure provides to get you back into a working state when time is of the essence.
 
 # Posts
