@@ -10,7 +10,7 @@ title: Responding To Incidents - OPS20
 description: Your systems are down! Customers are calling. Every moment counts. What do you do?
 github_username: jasonhand
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "fastpages"
+# github_repo: "fastpages"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 url: "https://jasonhand.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -21,7 +21,7 @@ email:
 twitter_username: "jasonhand"
 
 # Set this to true to get LaTeX math equation support
-use_math: 
+use_math: false
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
 show_description: true
@@ -34,6 +34,9 @@ show_tags: false
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics: UA-159073323-1
+
+# Added by Jason: Enabling Excerpts on the Home Page
+show_excerpts: true
 
 exclude:
   - CONTRIBUTING.md
