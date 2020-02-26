@@ -52,3 +52,5 @@ So, when an incident occurs, it is disruptive. It is...
 ### Unplanned Work  
 
 Often, we view this as a terrible thing, but if you stop and think about it, incidents are really “investments” in supplying the value we are trying to deliver to end users.
+
+[Previous](2020-02-25-TTR.md) | [Next](2020-02-25-Responding-To-Incidents.md)
