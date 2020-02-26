@@ -6,16 +6,24 @@
 
 https://jasonhand.github.io/fastpages/
 
-# Responding to Incidents
+# My Blog
 
-Your systems are down!
 
-Customers are calling. Every moment counts.
+_powered by [fastpages](https://github.com/fastai/fastpages)_
 
-What do you do?  
 
-Handling incidents well is core to meeting your reliability goals.
+## What To Do Next?
 
-In this session, we will explore incident management best practices that will help you triage, remediate, and communicate as effectively as possible.
+Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:
 
-We will also explore the tools Azure provides to get you back into a working state when time is of the essence.
+- [Writing Blogs With Jupyter](https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter)
+
+- [Writing Blogs With Markdown](https://github.com/fastai/fastpages#writing-blog-posts-with-markdown)
+
+- [Writing Blog Posts With Word](https://github.com/fastai/fastpages#writing-blog-posts-with-microsoft-word)
+
+- [(Optional) Preview Your Blog Locally](DEVELOPMENT.md)
+
+Note: you may want to remove example blog posts from the `_posts`,  `_notebooks` or `_word` folders (but leave them empty, don't delete these folders) if you don't want these blog posts to appear on your site.
+
+Please use the [nbdev & blogging channel](https://forums.fast.ai/c/fastai-users/nbdev/48) in the fastai forums for any questions or feature requests.
