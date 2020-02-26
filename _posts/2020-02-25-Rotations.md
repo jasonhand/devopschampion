@@ -24,3 +24,5 @@ is a rotation where engineers will be “on-call” for several days in a row. H
 Follow the sun shifts are nice for distributed teams. These allow for engineers to schedule their “on-call” shifts only during their normal working office hours. As they end their day and go home, engineers in a different time zone can take over.
 
 And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.
+
+[Previous](2020-02-25-Rotations.html) | [Next](2020-02-25-Incident-Tracking.html)

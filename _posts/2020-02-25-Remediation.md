@@ -16,3 +16,5 @@
 Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result.
 
 Now that we’ve covered the foundations of building a good incident response plan, let's talk about remediation efforts and what that looks like for Tailwind Traders.
+
+[Previous](2020-02-25-TTR.html) | [Next](2020-02-25-Responding-To-Incidents.html)

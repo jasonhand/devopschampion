@@ -20,3 +20,5 @@ We want a channel that is unique to the incident only. We do not want conversati
 Using Logic App to create a workflow for responses (including Azure Boards, Azure Storage, Microsoft Teams)
 
 >Task: Using Logic Apps
+
+[Previous](2020-02-25-Communications-Channel.html) | [Next](2020-02-25-ChatOps.html)

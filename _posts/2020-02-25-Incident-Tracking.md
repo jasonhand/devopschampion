@@ -42,3 +42,5 @@ And last...
 ## How Bad is It
 
 We may not have any notion of severity or impact and there is no place for us to find out how bad the problem really is, and who is affected. These are tough questions to answer if nothing is tracked.
+
+[Previous](2020-02-25-Incident-Tracking.html) | [Next](2020-02-25-Communications-Channel.html)
