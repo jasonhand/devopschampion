@@ -25,4 +25,4 @@ Follow the sun shifts are nice for distributed teams. These allow for engineers 
 
 And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.
 
-[Previous](2020-02-25-Rotations.html) | [Next](2020-02-25-Incident-Tracking.html)
+[Previous](2020-02-25-Rosters.html) | [Next](2020-02-25-Incident-Tracking.html)

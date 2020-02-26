@@ -15,4 +15,4 @@
 
 Where to start? How on-call engineers should escalate incidents? What metrics, tools, links or general resources might be helpful? In a non-prescriptive way, what can be provided to help assist in the efforts to fix the problems.
 
-[Previous](2020-02-25-TTR.html) | [Next](2020-02-25-Responding-To-Incidents.html)
+[Previous](2020-02-25-TTR.html) | [Next](index.html)
