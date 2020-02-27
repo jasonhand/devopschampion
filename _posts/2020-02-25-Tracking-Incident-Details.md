@@ -1,5 +1,5 @@
 ---
-- title: "Tracking Incident Details"
+- title: "4. Tracking Incident Details"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -43,4 +43,10 @@ And last...
 
 We may not have any notion of severity or impact and there is no place for us to find out how bad the problem really is, and who is affected. These are tough questions to answer if nothing is tracked.
 
-[Previous](2020-02-25-Incident-Tracking.html) | [Next](2020-02-25-Communications-Channel.html)
+## Resources
+
+[MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+
+## Next steps
+
+[Measuring Incident Response](2020-02-25-Measuring-Incident-Response.html)

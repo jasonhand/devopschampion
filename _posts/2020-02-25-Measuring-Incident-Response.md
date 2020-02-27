@@ -1,5 +1,5 @@
 ---
-- title: "Measuring Incident Response"
+- title: "5. Measuring Incident Response"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -41,4 +41,4 @@ Instead, we must do better at knowing when something is wrong and being able to 
 
 ## Next steps
 
-[What Are Incidents?](2020-02-25-Incidents.html)
+[Establishing On-call Roles](2020-02-25-Establishing-Oncall-Roles.html)

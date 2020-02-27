@@ -1,5 +1,5 @@
 ---
-- title: "Building On-call Rotations"
+- title: "8. Building On-call Rotations"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -25,4 +25,10 @@ Follow the sun shifts are nice for distributed teams. These allow for engineers 
 
 And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.
 
-[Previous](2020-02-25-Rosters.html) | [Next](2020-02-25-Incident-Tracking.html)
+## Resources
+
+[MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+
+## Next steps
+
+[Remediation of Incidents](2020-02-25-Remediation-Of-Incidents.html)

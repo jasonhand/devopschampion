@@ -1,5 +1,5 @@
 ---
-- title: "Remediation Of Incidents"
+- title: "9. Remediation Of Incidents"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -17,4 +17,10 @@ Although thinking of incidents in terms of phases allows for us to shorten each 
 
 Now that we’ve covered the foundations of building a good incident response plan, let's talk about remediation efforts and what that looks like for Tailwind Traders.
 
-[Previous](2020-02-25-TTR.html) | [Next](2020-02-25-Responding-To-Incidents.html)
+## Resources
+
+[MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+
+## Next steps
+
+[Supplying Context & Guidance](2020-02-25-Supplying-Context-And-Guidance.html)

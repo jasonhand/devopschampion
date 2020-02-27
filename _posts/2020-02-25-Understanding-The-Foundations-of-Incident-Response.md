@@ -1,5 +1,5 @@
 ---
-- title: "Understanding the Foundations of Incident Response"
+- title: "3. Understanding the Foundations of Incident Response"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -17,4 +17,10 @@ If we are going to talk about the foundations of building reliable systems inclu
 
 ## Rosters/Roles/Rotations
 
-[Previous](2020-02-25-Response-Foundations.html) | [Next](2020-02-25-Roles.html)
+## Resources
+
+[MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+
+## Next steps
+
+[Tracking Incident Details](2020-02-25-Tracking-Incident-Details.html)

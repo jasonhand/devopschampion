@@ -1,5 +1,5 @@
 ---
-- title: "Building On-call Rosters"
+- title: "7. Building On-call Rosters"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -15,4 +15,10 @@
 
 Rosters establish a framework around who is on-call at any given point. A roster, or team, is made up of multiple engineers. Rosters can also contain multiple rotations.
 
-[Previous](2020-02-25-Rosters.html) | [Next](2020-02-25-Building-Oncall-Rotations.html)
+## Resources
+
+[MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+
+## Next steps
+
+[Building On-call Rotations](2020-02-25-Building-Oncall-Rotations.html)

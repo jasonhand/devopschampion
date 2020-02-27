@@ -1,5 +1,5 @@
 ---
-- title: "Determining What Incidents Are"
+- title: "1. Determining What Incidents Are"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -61,4 +61,4 @@ Often, we view this as a terrible thing, but in reality, incidents are actually 
 
 ## Next steps
 
-[The Lifecycle of An Incident](2020-02-25-Lifecycle-of-an-Incident.html)
+[Understanding the Full Lifecycle of An Incident](2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html)
