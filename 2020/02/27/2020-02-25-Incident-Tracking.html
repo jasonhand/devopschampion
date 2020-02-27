@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Supplying Context and Guidance | Responding To Incidents - OPS20</title>
+<title>Incident Tracking | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Supplying Context and Guidance" />
+<meta property="og:title" content="Incident Tracking" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Where to start? How on-call engineers should escalate incidents? What metrics, tools, links or general resources might be helpful? In a non-prescriptive way, what can be provided to help assist in the efforts to fix the problems." />
-<meta property="og:description" content="Where to start? How on-call engineers should escalate incidents? What metrics, tools, links or general resources might be helpful? In a non-prescriptive way, what can be provided to help assist in the efforts to fix the problems." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/26/2020-02-25-Supplying-Context-And-Guidance.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/26/2020-02-25-Supplying-Context-And-Guidance.html" />
+<meta name="description" content="Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:" />
+<meta property="og:description" content="Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:" />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incident-Tracking.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incident-Tracking.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-26T13:00:44-06:00" />
+<meta property="article:published_time" content="2020-02-27T15:40:07-06:00" />
 <script type="application/ld+json">
-{"description":"Where to start? How on-call engineers should escalate incidents? What metrics, tools, links or general resources might be helpful? In a non-prescriptive way, what can be provided to help assist in the efforts to fix the problems.","@type":"BlogPosting","headline":"Supplying Context and Guidance","dateModified":"2020-02-26T13:00:44-06:00","datePublished":"2020-02-26T13:00:44-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/26/2020-02-25-Supplying-Context-And-Guidance.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/26/2020-02-25-Supplying-Context-And-Guidance.html"},"@context":"https://schema.org"}</script>
+{"description":"Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:","@type":"BlogPosting","headline":"Incident Tracking","dateModified":"2020-02-27T15:40:07-06:00","datePublished":"2020-02-27T15:40:07-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incident-Tracking.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incident-Tracking.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,8 +74,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Supplying Context and Guidance</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-26T13:00:44-06:00" itemprop="datePublished">
-        Feb 26, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Incident Tracking</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T15:40:07-06:00" itemprop="datePublished">
+        Feb 27, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -89,18 +89,46 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Where to start? How on-call engineers should escalate incidents? What metrics, tools, links or general resources might be helpful? In a non-prescriptive way, what can be provided to help assist in the efforts to fix the problems.</p>
+    <p>Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:</p>
+
+<h2 id="when-did-we-know-about-this-problem">When Did We Know About This Problem</h2>
+
+<p>Is this a new incident? If we are trying to reduce the time it takes to recover from incidents, we will need to start capturing when we are aware of issues.</p>
+
+<p>Not only that but we want to keep track of:</p>
+
+<h2 id="how-did-we-know-about-the-problem">How Did We Know About the Problem</h2>
+
+<p>Did our monitoring systems tell us, or did a customer inform us? If we plan to learn and improve, capturing how we knew will uncover improvement opportunities in our monitoring practices.</p>
+
+<p>If I am just finding out about a problem…</p>
+
+<h2 id="am-i-the-first-to-know">Am I the First to Know</h2>
+
+<p>Who else is aware?</p>
+
+<p>And let us say others are aware of the problem…</p>
+
+<h2 id="what-if-anything-is-being-done">What (if anything) is Being Done</h2>
+
+<p>Is everyone assuming someone else is looking into it?</p>
+
+<p>And last…</p>
+
+<h2 id="how-bad-is-it">How Bad is It</h2>
+
+<p>We may not have any notion of severity or impact and there is no place for us to find out how bad the problem really is, and who is affected. These are tough questions to answer if nothing is tracked.</p>
 
 <table>
   <tbody>
     <tr>
-      <td><a href="2020-02-25-TTR.html">Previous</a></td>
-      <td><a href="index.html">Next</a></td>
+      <td><a href="2020-02-25-Incident-Tracking.html">Previous</a></td>
+      <td><a href="2020-02-25-Communications-Channel.html">Next</a></td>
     </tr>
   </tbody>
 </table>
 
-  </div><a class="u-url" href="/fastpages/2020/02/26/2020-02-25-Supplying-Context-And-Guidance.html" hidden></a>
+  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Incident-Tracking.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
