@@ -1,5 +1,5 @@
 ---
-- title: "Roles"
+- title: "Establishing On-call Roles"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Roles
+# Establishing On-call Roles
 
 ## Primary Responder
 

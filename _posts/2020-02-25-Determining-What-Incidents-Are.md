@@ -1,5 +1,5 @@
 ---
-- title: "What is an incident"
+- title: "Determining What Incidents Are"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Incidents
+# Determining What Incidents Are
 
 First, we should discuss what we mean by incident.
 

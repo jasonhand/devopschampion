@@ -1,5 +1,5 @@
 ---
-- title: "Time to Recover/Remediate/Restore (TTR)"
+- title: "Measuring Incident Response"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Responding To Incidents
+# Measuring Incident Response
 
 The systems we work in eventually have problems. They are built, maintained, and supported by technolgists such as yourself. And when an issue inevitably occurs, someone needs to take action to restore services.
 

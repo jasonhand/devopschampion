@@ -1,5 +1,5 @@
 ---
-- title: "ChatOps"
+- title: "Managing Tasks from Group Chat - ChatOps"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,8 +11,7 @@
 - metadata_key2: sre
 ---
 
-
-# ChatOps
+# Managing Tasks from Group Chat - ChatOps
 
 Task: Webhook (started from Microsoft Teams) hits an Azure Function endpoint to update a static HTML (hypertext markup language) (status) page stored in Azure Storage.
 

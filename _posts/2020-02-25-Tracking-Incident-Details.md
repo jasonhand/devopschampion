@@ -1,5 +1,5 @@
 ---
-- title: "Incident Tracking"
+- title: "Tracking Incident Details"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Incident Tracking
+# Tracking Incident Details
 
 Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:  
 

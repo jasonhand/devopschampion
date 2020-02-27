@@ -1,5 +1,5 @@
 ---
-- title: "Rotations"
+- title: "Building On-call Rotations"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Rotations
+# Building On-call Rotations
 
 A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.
 

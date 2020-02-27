@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Lifecycle of an incident
+# Understanding the Full Lifecycle of an Incident
 
 What I’m here to talk about today is what happens once we receive an alert. What is the next part that takes place? And you can see there’s much more to an incident than just the response. We’ll go over remediation a little more towards the end of the presentation. Here are each of the phases of an incident.
 

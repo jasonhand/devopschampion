@@ -1,5 +1,5 @@
 ---
-- title: "Remediation"
+- title: "Remediation Of Incidents"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Remediation
+# Remediation Of Incidents
 
 Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result.
 

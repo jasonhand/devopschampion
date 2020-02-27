@@ -1,5 +1,5 @@
 ---
-- title: "Communication Channels"
+- title: "Establishing Communication Channels"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -11,7 +11,7 @@
 - metadata_key2: sre
 ---
 
-# Communication Channels
+# Establishing Communication Channels
 
 To address some of the challenges around how we communicate we also want to find a way to create a unique channel or space for engineers to discuss the details of the incident - a “conversation bridge” in our persistent group chat tool -which for Tailwind Traders is Microsoft Teams.  
 
