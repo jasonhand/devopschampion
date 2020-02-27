@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Rotations | Responding To Incidents - OPS20</title>
+<title>Determining What Incidents Are | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Rotations" />
+<meta property="og:title" content="Determining What Incidents Are" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
-<meta property="og:description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Rotations.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Rotations.html" />
+<meta name="description" content="First, we should discuss what we mean by incident." />
+<meta property="og:description" content="First, we should discuss what we mean by incident." />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Determining-What-Incidents-Are.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Determining-What-Incidents-Are.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-27T15:40:07-06:00" />
+<meta property="article:published_time" content="2020-02-27T16:12:22-06:00" />
 <script type="application/ld+json">
-{"description":"A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.","@type":"BlogPosting","headline":"Rotations","dateModified":"2020-02-27T15:40:07-06:00","datePublished":"2020-02-27T15:40:07-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Rotations.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Rotations.html"},"@context":"https://schema.org"}</script>
+{"description":"First, we should discuss what we mean by incident.","@type":"BlogPosting","headline":"Determining What Incidents Are","dateModified":"2020-02-27T16:12:22-06:00","datePublished":"2020-02-27T16:12:22-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Determining-What-Incidents-Are.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Determining-What-Incidents-Are.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,7 +74,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Rotations</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T15:40:07-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Determining What Incidents Are</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T16:12:22-06:00" itemprop="datePublished">
         Feb 27, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -89,28 +89,59 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.</p>
+    <p>First, we should discuss what we mean by incident.</p>
 
-<h2 id="24-x-7">24 x 7</h2>
+<p>I believe we can all agree that an incident is a “<strong>service disruption</strong>” - something that is affecting our user’s ability to use the services they have come to rely on. Beyond that</p>
 
-<p>is a rotation where engineers will be “on-call” for several days in a row. However, most “Elite/High performers” would agree that rotations longer than 3 or 4 days are detrimental to the overall health of engineering staff and therefore the entire system.</p>
+<p>There are other properties of an incident that are worth mentioning, however.</p>
 
-<h2 id="follow-the-sun">Follow the Sun</h2>
+<p>Incidents are commonly:</p>
 
-<p>Follow the sun shifts are nice for distributed teams. These allow for engineers to schedule their “on-call” shifts only during their normal working office hours. As they end their day and go home, engineers in a different time zone can take over.</p>
+<ul>
+  <li>Subjective</li>
+  <li>Feared</li>
+  <li>Unplanned</li>
+</ul>
 
-<p>And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.</p>
+<h2 id="subjective">Subjective</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td><a href="2020-02-25-Rosters.html">Previous</a></td>
-      <td><a href="2020-02-25-Incident-Tracking.html">Next</a></td>
-    </tr>
-  </tbody>
-</table>
+<p>If you ask engineers across different organizations and industries, you will get many different answers about what an incident is.</p>
 
-  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Rotations.html" hidden></a>
+<p>Sometimes it is only when a customer is affected.</p>
+
+<p>Others will label disruptions as incidents even if a customer never experienced a thing.</p>
+
+<p>Subjectivity is an unfortunate property of incidents in a lot of cases, even when it comes to identifying severity levels.</p>
+
+<h2 id="feared">Feared</h2>
+
+<p>In some cases, we downplay the significance of an outage … or worse … intentionally mis-label or not report a disruption in service for fear of reprimand.</p>
+
+<p>Historically, we have felt that incidents reflected poorly in several areas of our engineering efforts and the organization.</p>
+
+<p>It is not been until more recently through many of the conversations around devops and site reliability engineering, that we are starting to rethink incidents and now view them as opportunities to learn and improve our systems.</p>
+
+<h2 id="unplanned-work">Unplanned Work</h2>
+
+<p>The last thing I want to point out regarding incidents, is that most of what we as engineers and technologists do is planned work.</p>
+
+<p>We spend a lot of time and effort understanding the work in front of us.</p>
+
+<p>We calculate story points.  We plan sprints. We mostly have a good idea on what we are supposed to be working on.</p>
+
+<p>So, when an incident occurs, it is disruptive. It is… unplanned work.</p>
+
+<p>Often, we view this as a terrible thing, but in reality, incidents are actually “investments” in supplying the value we are trying to deliver to end users.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/">MS Learn: Improve Incident Response with Alerting in Azure</a></p>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p><a href="2020-02-25-Lifecycle-of-an-Incident.html">The Lifecycle of An Incident</a></p>
+
+  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Determining-What-Incidents-Are.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

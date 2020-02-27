@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Incidents | Responding To Incidents - OPS20</title>
+<title>Establishing On-call Roles | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Incidents" />
+<meta property="og:title" content="Establishing On-call Roles" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="First, we should discuss what we mean by incident." />
-<meta property="og:description" content="First, we should discuss what we mean by incident." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incidents.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incidents.html" />
+<meta name="description" content="Primary Responder" />
+<meta property="og:description" content="Primary Responder" />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Establishing-Oncall-Roles.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Establishing-Oncall-Roles.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-27T15:40:07-06:00" />
+<meta property="article:published_time" content="2020-02-27T16:12:22-06:00" />
 <script type="application/ld+json">
-{"description":"First, we should discuss what we mean by incident.","@type":"BlogPosting","headline":"Incidents","dateModified":"2020-02-27T15:40:07-06:00","datePublished":"2020-02-27T15:40:07-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incidents.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Incidents.html"},"@context":"https://schema.org"}</script>
+{"description":"Primary Responder","@type":"BlogPosting","headline":"Establishing On-call Roles","dateModified":"2020-02-27T16:12:22-06:00","datePublished":"2020-02-27T16:12:22-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Establishing-Oncall-Roles.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Establishing-Oncall-Roles.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,13 +74,13 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Incidents</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T15:40:07-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Establishing On-call Roles</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T16:12:22-06:00" itemprop="datePublished">
         Feb 27, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -89,59 +89,40 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>First, we should discuss what we mean by incident.</p>
+    <h2 id="primary-responder">Primary Responder</h2>
 
-<p>I believe we can all agree that an incident is a “<strong>service disruption</strong>” - something that is affecting our user’s ability to use the services they have come to rely on. Beyond that</p>
+<p>The first role we need to talk about is the “Primary Responder” – the Primary “On-call” engineer.</p>
 
-<p>There are other properties of an incident that are worth mentioning, however.</p>
+<h2 id="secondary-responder">Secondary Responder</h2>
 
-<p>Incidents are commonly:</p>
+<p>Then we have the secondary responder – who is there as back up -Another engineer who can step in if the primary responder is unavailable or unreachable. Or if they just need another pair of eyes.</p>
 
-<ul>
-  <li>Subjective</li>
-  <li>Feared</li>
-  <li>Unplanned</li>
-</ul>
+<h2 id="incident-commander">Incident Commander</h2>
 
-<h2 id="subjective">Subjective</h2>
+<p>Another key role to identify, in many cases, is the incident commander. An incident commander can be extremely helpful when you have got a large-scale outage that effects a lot of different components or requires coordination across many teams and different systems. They are great for making sure that engineers stay focused and they are working on their own remediation efforts… Ensuring people are not stepping on each other or undoing each other’s work.  It is good to have a central person who can track what is going on and who is doing what.</p>
 
-<p>If you ask engineers across different organizations and industries, you will get many different answers about what an incident is.</p>
+<h2 id="communication-coordinator">Communication Coordinator</h2>
 
-<p>Sometimes it is only when a customer is affected.</p>
+<p>The Communication Coordinator is meant to be the person working in conjunction with the incident commander to share more information beyond those who are in the firefight actively working to recover from the incident itself. That could be customers. It could be the sales and marketing teams. Maybe your customer support. There are many people within an organization who need to be made aware of what’s taking place and the status around how things are progressing. It’s always good to put someone in charge of managing that communication and making sure that other stakeholders are aware of what is happening and what’s being done.</p>
 
-<p>Others will label disruptions as incidents even if a customer never experienced a thing.</p>
+<h2 id="scribe">Scribe</h2>
 
-<p>Subjectivity is an unfortunate property of incidents in a lot of cases, even when it comes to identifying severity levels.</p>
+<p>The scribe’s role is to document the conversation in as much detail as possible. Teams commonly use phone bridges, conference calls, or video chat to get everyone together and try to understand what is going on, which can certainly help create space for the conversation. However, it is difficult for us to go through and understand in detail what the engineers were saying and doing unless it is transcribed. As a result, a scribe is that person who can help us document as much as possible to review later. What were people saying, doing, feeling, and even experiencing?  It is all data to be analyzed – but only if we capture it.</p>
 
-<h2 id="feared">Feared</h2>
+<h2 id="subject-matter-experts">Subject Matter Experts</h2>
 
-<p>In some cases, we downplay the significance of an outage … or worse … intentionally mis-label or not report a disruption in service for fear of reprimand.</p>
+<p>It’s quite common within on-call rosters to identify subject matter experts, so that early responders know who to escalate too quickly. These people should not be on call all the time, of course, but we do want to be able to identify who is our database expert. Who is our front-end expert? Who are the people that we can reach out to if our primary and secondary responders are not able to diagnose and resolve the issue themselves?</p>
 
-<p>Historically, we have felt that incidents reflected poorly in several areas of our engineering efforts and the organization.</p>
+<table>
+  <tbody>
+    <tr>
+      <td><a href="2020-02-25-Roles.html">Previous</a></td>
+      <td><a href="2020-02-25-Rosters.html">Next</a></td>
+    </tr>
+  </tbody>
+</table>
 
-<p>It is not been until more recently through many of the conversations around devops and site reliability engineering, that we are starting to rethink incidents and now view them as opportunities to learn and improve our systems.</p>
-
-<h2 id="unplanned-work">Unplanned Work</h2>
-
-<p>The last thing I want to point out regarding incidents, is that most of what we as engineers and technologists do is planned work.</p>
-
-<p>We spend a lot of time and effort understanding the work in front of us.</p>
-
-<p>We calculate story points.  We plan sprints. We mostly have a good idea on what we are supposed to be working on.</p>
-
-<p>So, when an incident occurs, it is disruptive. It is… unplanned work.</p>
-
-<p>Often, we view this as a terrible thing, but in reality, incidents are actually “investments” in supplying the value we are trying to deliver to end users.</p>
-
-<h2 id="resources">Resources</h2>
-
-<p><a href="https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/">MS Learn: Improve Incident Response with Alerting in Azure</a></p>
-
-<h2 id="next-steps">Next steps</h2>
-
-<p><a href="2020-02-25-Lifecycle-of-an-Incident.html">The Lifecycle of An Incident</a></p>
-
-  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Incidents.html" hidden></a>
+  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Establishing-Oncall-Roles.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

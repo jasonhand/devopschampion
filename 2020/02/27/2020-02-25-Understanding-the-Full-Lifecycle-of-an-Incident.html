@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Response Foundations | Responding To Incidents - OPS20</title>
+<title>Understanding the Full Lifecycle of an Incident | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Response Foundations" />
+<meta property="og:title" content="Understanding the Full Lifecycle of an Incident" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="If we are going to talk about the foundations of building reliable systems including the foundations of a good incident response plan, I think the best place to start is by determining “Who is expected to respond to problems?” and “How do let them know?” The best place to start, is to design what is known as a “Roster” or an on-call team. We’ll talk more about rosters in a moment. First, we’ll talk about some of the “Roles” of the people that make up that “Roster”. And last, we’ll talk about what a rotation is." />
-<meta property="og:description" content="If we are going to talk about the foundations of building reliable systems including the foundations of a good incident response plan, I think the best place to start is by determining “Who is expected to respond to problems?” and “How do let them know?” The best place to start, is to design what is known as a “Roster” or an on-call team. We’ll talk more about rosters in a moment. First, we’ll talk about some of the “Roles” of the people that make up that “Roster”. And last, we’ll talk about what a rotation is." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Response-Foundations.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Response-Foundations.html" />
+<meta name="description" content="What I’m here to talk about today is what happens once we receive an alert. What is the next part that takes place? And you can see there’s much more to an incident than just the response. We’ll go over remediation a little more towards the end of the presentation. Here are each of the phases of an incident." />
+<meta property="og:description" content="What I’m here to talk about today is what happens once we receive an alert. What is the next part that takes place? And you can see there’s much more to an incident than just the response. We’ll go over remediation a little more towards the end of the presentation. Here are each of the phases of an incident." />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-27T15:40:07-06:00" />
+<meta property="article:published_time" content="2020-02-27T16:12:22-06:00" />
 <script type="application/ld+json">
-{"description":"If we are going to talk about the foundations of building reliable systems including the foundations of a good incident response plan, I think the best place to start is by determining “Who is expected to respond to problems?” and “How do let them know?” The best place to start, is to design what is known as a “Roster” or an on-call team. We’ll talk more about rosters in a moment. First, we’ll talk about some of the “Roles” of the people that make up that “Roster”. And last, we’ll talk about what a rotation is.","@type":"BlogPosting","headline":"Response Foundations","dateModified":"2020-02-27T15:40:07-06:00","datePublished":"2020-02-27T15:40:07-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Response-Foundations.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Response-Foundations.html"},"@context":"https://schema.org"}</script>
+{"description":"What I’m here to talk about today is what happens once we receive an alert. What is the next part that takes place? And you can see there’s much more to an incident than just the response. We’ll go over remediation a little more towards the end of the presentation. Here are each of the phases of an incident.","@type":"BlogPosting","headline":"Understanding the Full Lifecycle of an Incident","dateModified":"2020-02-27T16:12:22-06:00","datePublished":"2020-02-27T16:12:22-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,7 +74,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Response Foundations</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T15:40:07-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Understanding the Full Lifecycle of an Incident</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T16:12:22-06:00" itemprop="datePublished">
         Feb 27, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -89,20 +89,44 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>If we are going to talk about the foundations of building reliable systems including the foundations of a good incident response plan, I think the best place to start is by determining “Who is expected to respond to problems?” and “How do let them know?” The best place to start, is to design what is known as a “Roster” or an on-call team. We’ll talk more about rosters in a moment. First, we’ll talk about some of the “Roles” of the people that make up that “Roster”.  And last, we’ll talk about what a rotation is.</p>
+    <p>What I’m here to talk about today is what happens once we receive an alert. What is the next part that takes place? And you can see there’s much more to an incident than just the response. We’ll go over remediation a little more towards the end of the presentation. Here are each of the phases of an incident.</p>
 
-<h2 id="rostersrolesrotations">Rosters/Roles/Rotations</h2>
+<p><img src="../images/LifecycleOfAnIncident.png" alt="" /></p>
+
+<h2 id="phase-1-detection">Phase 1: Detection</h2>
+
+<p>A problem has been detected through various tooling and practices</p>
+
+<h2 id="phase-2-response">Phase 2: Response</h2>
+
+<p>A coordinated effort to get the right people and tooling in place to diagnose, theorize, and triage.</p>
+
+<h2 id="phase-3-remediation">Phase 3: Remediation</h2>
+
+<p>Efforts made to change the system to either restore service or confirm theories.</p>
+
+<h2 id="phase-4-analysis">Phase 4: Analysis</h2>
+
+<p>Post-incident retrospective exercise to understand the the full the lifecycle of the incident including the human response.</p>
+
+<h2 id="phase-5-readiness">Phase 5: Readiness</h2>
+
+<p>Implementing knew knowledge and changes to improve and shorten the time and effects of future incidents.</p>
+
+<h2 id="response-foundations">Response Foundations</h2>
+
+<p>If we are going to talk about the foundations of building reliable systems including the foundations of a good incident response plan, I think the best place to start is by determining “Who is expected to respond to problems?” and “How do let them know?” The best place to start, is to design what is known as a “Roster” or an on-call team. We’ll talk more about rosters in a moment. First, we’ll talk about some of the “Roles” of the people that make up that “Roster”.  And last, we’ll talk about what a rotation is.</p>
 
 <table>
   <tbody>
     <tr>
-      <td><a href="2020-02-25-Response-Foundations.html">Previous</a></td>
-      <td><a href="2020-02-25-Roles.html">Next</a></td>
+      <td><a href="2020-02-25-Lifecycle-of-an-Incident.html">Previous</a></td>
+      <td><a href="2020-02-25-Response-Foundations.html">Next</a></td>
     </tr>
   </tbody>
 </table>
 
-  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Response-Foundations.html" hidden></a>
+  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
