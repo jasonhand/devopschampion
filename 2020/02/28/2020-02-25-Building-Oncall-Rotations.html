@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Managing Tasks from Group Chat - ChatOps | Responding To Incidents - OPS20</title>
+<title>Building On-call Rotations | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Managing Tasks from Group Chat - ChatOps" />
+<meta property="og:title" content="Building On-call Rotations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Task: Webhook (started from Microsoft Teams) hits an Azure Function endpoint to update a static HTML (hypertext markup language) (status) page stored in Azure Storage." />
-<meta property="og:description" content="Task: Webhook (started from Microsoft Teams) hits an Azure Function endpoint to update a static HTML (hypertext markup language) (status) page stored in Azure Storage." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Managing-Tasks-from-Group-Chat-ChatOps.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Managing-Tasks-from-Group-Chat-ChatOps.html" />
+<meta name="description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
+<meta property="og:description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Building-Oncall-Rotations.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Building-Oncall-Rotations.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-27T17:30:14-06:00" />
+<meta property="article:published_time" content="2020-02-28T12:24:51-06:00" />
 <script type="application/ld+json">
-{"description":"Task: Webhook (started from Microsoft Teams) hits an Azure Function endpoint to update a static HTML (hypertext markup language) (status) page stored in Azure Storage.","@type":"BlogPosting","headline":"Managing Tasks from Group Chat - ChatOps","dateModified":"2020-02-27T17:30:14-06:00","datePublished":"2020-02-27T17:30:14-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Managing-Tasks-from-Group-Chat-ChatOps.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/27/2020-02-25-Managing-Tasks-from-Group-Chat-ChatOps.html"},"@context":"https://schema.org"}</script>
+{"description":"A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.","@type":"BlogPosting","headline":"Building On-call Rotations","dateModified":"2020-02-28T12:24:51-06:00","datePublished":"2020-02-28T12:24:51-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Building-Oncall-Rotations.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Building-Oncall-Rotations.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,8 +74,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Managing Tasks from Group Chat - ChatOps</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-27T17:30:14-06:00" itemprop="datePublished">
-        Feb 27, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Building On-call Rotations</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-28T12:24:51-06:00" itemprop="datePublished">
+        Feb 28, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -89,18 +89,27 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Task: Webhook (started from Microsoft Teams) hits an Azure Function endpoint to update a static HTML (hypertext markup language) (status) page stored in Azure Storage.</p>
+    <p>A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td><a href="2020-02-25-ChatOps.html">Previous</a></td>
-      <td><a href="2020-02-25-Supplying-Context-And-Guidance.html">Next</a></td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="24-x-7">24 x 7</h2>
 
-  </div><a class="u-url" href="/fastpages/2020/02/27/2020-02-25-Managing-Tasks-from-Group-Chat-ChatOps.html" hidden></a>
+<p>is a rotation where engineers will be “on-call” for several days in a row. However, most “Elite/High performers” would agree that rotations longer than 3 or 4 days are detrimental to the overall health of engineering staff and therefore the entire system.</p>
+
+<h2 id="follow-the-sun">Follow the Sun</h2>
+
+<p>Follow the sun shifts are nice for distributed teams. These allow for engineers to schedule their “on-call” shifts only during their normal working office hours. As they end their day and go home, engineers in a different time zone can take over.</p>
+
+<p>And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/">MS Learn: Improve Incident Response with Alerting in Azure</a></p>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p><a href="2020-02-25-Remediation-Of-Incidents.html">Remediation of Incidents</a></p>
+
+  </div><a class="u-url" href="/fastpages/2020/02/28/2020-02-25-Building-Oncall-Rotations.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
