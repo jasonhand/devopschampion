@@ -14,7 +14,7 @@ Additional Resources:
 - [blogs.msdn.microsoft.com](https://blogs.msdn.microsoft.com/?wt.mc_id=devopschampion-github-jahand)
 - [channel9.msdn.com](https://channel9.msdn.com?wt.mc_id=devopschampion-github-jahand)
 - [code.visualstudio.com](https://code.visualstudio.com?wt.mc_id=devopschampion-github-jahand)
-- [cloudblogs.microsoft.com](cloudblogs.microsoft.com?wt.mc_id=devopschampion-github-jahand)
+- [cloudblogs.microsoft.com](https://cloudblogs.microsoft.com?wt.mc_id=devopschampion-github-jahand)
 - [devblogs.microsoft.com](https://devblogs.microsoft.com?wt.mc_id=devopschampion-github-jahand) 
 - [docs.microsoft.com](https://docs.microsoft.com?wt.mc_id=devopschampion-github-jahand)
 - [marketplace.visualstudio.com](https://marketplace.visualstudio.com?wt.mc_id=devopschampion-github-jahand)
