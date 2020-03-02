@@ -45,4 +45,4 @@ Implementing knew knowledge and changes to improve and shorten the time and effe
 
 ## Next steps
 
-[Understanding the Full Lifecycle of An Incident](2020-02-25-Understanding-The-Foundations-of-Incident-Response.html)
+[Understanding the Foundations of Incident Response](2020-02-25-Understanding-The-Foundations-of-Incident-Response.html)
