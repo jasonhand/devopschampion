@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Responding To Incidents - OPS20
-description: Your systems are down! Customers are calling. Every moment counts. What do you do?
+title: Devops Champion
+description: Devops Champion - Beginning with Incident Response. Your systems are down! Customers are calling. Every moment counts. What do you do?
 github_username: jasonhand
 # you can comment the below line out if your repo name is not different than your baseurl
 # github_repo: "fastpages"
