@@ -13,8 +13,8 @@ github_username: jasonhand
 # github_repo: "fastpages"
 
 # OPTIONAL: override baseurl and url if using a custom domain
-url: "https://jasonhand.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/fastpages" # the subpath of your site, e.g. "/blog".  WARNING: if you are not using a custom domain, the baseurl *must* be set to your repo name.
+url: "http://devopschampion.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. "/blog".  WARNING: if you are not using a custom domain, the baseurl *must* be set to your repo name.
 
 # Email and twitter are optional:
 email: 
@@ -24,10 +24,10 @@ twitter_username: "jasonhand"
 use_math: false
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
-show_description: true
+show_description: false
 
 # Set this to true to display image previews on home page, if they exist
-show_image: true
+show_image: false
 
 # Set this to true to display tags on each post
 show_tags: false
@@ -36,7 +36,7 @@ show_tags: false
 google_analytics: UA-159073323-1
 
 # Added by Jason: Enabling Excerpts on the Home Page
-show_excerpts: true
+show_excerpts: false
 
 exclude:
   - CONTRIBUTING.md
