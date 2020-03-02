@@ -8,6 +8,8 @@ search: exclude
 
 # /Incident Response Foundations
 
-***Your systems are down!** <br /><br />Customers are calling. Every moment counts. What do you do? Handling incidents well is core to meeting your reliability goals. <br /><br />In this session, we will explore incident management best practices that will help you triage, remediate, and communicate as effectively as possible. <br /><br />We will also explore the tools Azure provides to get you back into a working state when time is of the essence.*
+**Your systems are down!** <br />
+
+Customers are calling. Every moment counts. What do you do? Handling incidents well is core to meeting your reliability goals. <br /><br />In this session, we will explore incident management best practices that will help you triage, remediate, and communicate as effectively as possible. <br /><br />We will also explore the tools Azure provides to get you back into a working state when time is of the essence.
 
 [Determining What Incidents Are](http://devopschampion.com/2020/03/02/2020-02-25-Determining-What-Incidents-Are.html)
