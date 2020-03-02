@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Establishing Communication Channels | Responding To Incidents - OPS20</title>
+<title>Tracking Incident Details | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Establishing Communication Channels" />
+<meta property="og:title" content="Tracking Incident Details" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="To address some of the challenges around how we communicate we also want to find a way to create a unique channel or space for engineers to discuss the details of the incident - a “conversation bridge” in our persistent group chat tool -which for Tailwind Traders is Microsoft Teams." />
-<meta property="og:description" content="To address some of the challenges around how we communicate we also want to find a way to create a unique channel or space for engineers to discuss the details of the incident - a “conversation bridge” in our persistent group chat tool -which for Tailwind Traders is Microsoft Teams." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Establishing-Communications-Channel.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Establishing-Communications-Channel.html" />
+<meta name="description" content="Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:" />
+<meta property="og:description" content="Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:" />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Tracking-Incident-Details.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Tracking-Incident-Details.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-28T12:24:51-06:00" />
+<meta property="article:published_time" content="2020-03-02T11:10:11-06:00" />
 <script type="application/ld+json">
-{"description":"To address some of the challenges around how we communicate we also want to find a way to create a unique channel or space for engineers to discuss the details of the incident - a “conversation bridge” in our persistent group chat tool -which for Tailwind Traders is Microsoft Teams.","@type":"BlogPosting","headline":"Establishing Communication Channels","dateModified":"2020-02-28T12:24:51-06:00","datePublished":"2020-02-28T12:24:51-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Establishing-Communications-Channel.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Establishing-Communications-Channel.html"},"@context":"https://schema.org"}</script>
+{"description":"Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:","@type":"BlogPosting","headline":"Tracking Incident Details","dateModified":"2020-03-02T11:10:11-06:00","datePublished":"2020-03-02T11:10:11-06:00","url":"https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Tracking-Incident-Details.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Tracking-Incident-Details.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,8 +74,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Establishing Communication Channels</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-28T12:24:51-06:00" itemprop="datePublished">
-        Feb 28, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Tracking Incident Details</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-02T11:10:11-06:00" itemprop="datePublished">
+        Mar 2, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -89,26 +89,45 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>To address some of the challenges around how we communicate we also want to find a way to create a unique channel or space for engineers to discuss the details of the incident - a “conversation bridge” in our persistent group chat tool -which for Tailwind Traders is Microsoft Teams.</p>
+    <p>Another thing we want to do, to address the challenges of Tailwind Traders and their incident response improvements is we want to be able to track:</p>
 
-<p>We want a channel that is unique to the incident only. We do not want conversations about other engineering efforts.We don’t want conversations about what people are doing for lunch. We ONLY want conversations related to the incident. Because then we can take that text (or data) and analyze later in a Post-incident review.</p>
+<h2 id="when-did-we-know-about-this-problem">When Did We Know About This Problem</h2>
 
-<p>Using Logic App to create a workflow for responses (including Azure Boards, Azure Storage, Microsoft Teams)</p>
+<p>Is this a new incident? If we are trying to reduce the time it takes to recover from incidents, we will need to start capturing when we are aware of issues.</p>
 
-<blockquote>
-  <p>Task: Using Logic Apps</p>
-</blockquote>
+<p>Not only that but we want to keep track of:</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td><a href="2020-02-25-Communications-Channel.html">Previous</a></td>
-      <td><a href="2020-02-25-ChatOps.html">Next</a></td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="how-did-we-know-about-the-problem">How Did We Know About the Problem</h2>
 
-  </div><a class="u-url" href="/fastpages/2020/02/28/2020-02-25-Establishing-Communications-Channel.html" hidden></a>
+<p>Did our monitoring systems tell us, or did a customer inform us? If we plan to learn and improve, capturing how we knew will uncover improvement opportunities in our monitoring practices.</p>
+
+<p>If I am just finding out about a problem…</p>
+
+<h2 id="am-i-the-first-to-know">Am I the First to Know</h2>
+
+<p>Who else is aware?</p>
+
+<p>And let us say others are aware of the problem…</p>
+
+<h2 id="what-if-anything-is-being-done">What (if anything) is Being Done</h2>
+
+<p>Is everyone assuming someone else is looking into it?</p>
+
+<p>And last…</p>
+
+<h2 id="how-bad-is-it">How Bad is It</h2>
+
+<p>We may not have any notion of severity or impact and there is no place for us to find out how bad the problem really is, and who is affected. These are tough questions to answer if nothing is tracked.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/">MS Learn: Improve Incident Response with Alerting in Azure</a></p>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p><a href="2020-02-25-Measuring-Incident-Response.html">Measuring Incident Response</a></p>
+
+  </div><a class="u-url" href="/fastpages/2020/03/02/2020-02-25-Tracking-Incident-Details.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

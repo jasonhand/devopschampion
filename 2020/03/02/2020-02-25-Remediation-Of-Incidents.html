@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Determining What Incidents Are | Responding To Incidents - OPS20</title>
+<title>Remediation Of Incidents | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Determining What Incidents Are" />
+<meta property="og:title" content="Remediation Of Incidents" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="First, we should discuss what we mean by incident." />
-<meta property="og:description" content="First, we should discuss what we mean by incident." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Determining-What-Incidents-Are.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Determining-What-Incidents-Are.html" />
+<meta name="description" content="Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result." />
+<meta property="og:description" content="Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result." />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Remediation-Of-Incidents.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Remediation-Of-Incidents.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-28T12:24:51-06:00" />
+<meta property="article:published_time" content="2020-03-02T11:10:11-06:00" />
 <script type="application/ld+json">
-{"description":"First, we should discuss what we mean by incident.","@type":"BlogPosting","headline":"Determining What Incidents Are","dateModified":"2020-02-28T12:24:51-06:00","datePublished":"2020-02-28T12:24:51-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Determining-What-Incidents-Are.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Determining-What-Incidents-Are.html"},"@context":"https://schema.org"}</script>
+{"description":"Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result.","@type":"BlogPosting","headline":"Remediation Of Incidents","dateModified":"2020-03-02T11:10:11-06:00","datePublished":"2020-03-02T11:10:11-06:00","url":"https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Remediation-Of-Incidents.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Remediation-Of-Incidents.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,8 +74,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Determining What Incidents Are</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-28T12:24:51-06:00" itemprop="datePublished">
-        Feb 28, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Remediation Of Incidents</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-02T11:10:11-06:00" itemprop="datePublished">
+        Mar 2, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -89,49 +89,9 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>First, we should discuss what we mean by incident.</p>
+    <p>Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result.</p>
 
-<p>I believe we can all agree that an incident is a “<strong>service disruption</strong>” - something that is affecting our user’s ability to use the services they have come to rely on. Beyond that</p>
-
-<p>There are other properties of an incident that are worth mentioning, however.</p>
-
-<p>Incidents are commonly:</p>
-
-<ul>
-  <li>Subjective</li>
-  <li>Feared</li>
-  <li>Unplanned</li>
-</ul>
-
-<h2 id="subjective">Subjective</h2>
-
-<p>If you ask engineers across different organizations and industries, you will get many different answers about what an incident is.</p>
-
-<p>Sometimes it is only when a customer is affected.</p>
-
-<p>Others will label disruptions as incidents even if a customer never experienced a thing.</p>
-
-<p>Subjectivity is an unfortunate property of incidents in a lot of cases, even when it comes to identifying severity levels.</p>
-
-<h2 id="feared">Feared</h2>
-
-<p>In some cases, we downplay the significance of an outage … or worse … intentionally mis-label or not report a disruption in service for fear of reprimand.</p>
-
-<p>Historically, we have felt that incidents reflected poorly in several areas of our engineering efforts and the organization.</p>
-
-<p>It is not been until more recently through many of the conversations around devops and site reliability engineering, that we are starting to rethink incidents and now view them as opportunities to learn and improve our systems.</p>
-
-<h2 id="unplanned-work">Unplanned Work</h2>
-
-<p>The last thing I want to point out regarding incidents, is that most of what we as engineers and technologists do is planned work.</p>
-
-<p>We spend a lot of time and effort understanding the work in front of us.</p>
-
-<p>We calculate story points.  We plan sprints. We mostly have a good idea on what we are supposed to be working on.</p>
-
-<p>So, when an incident occurs, it is disruptive. It is… unplanned work.</p>
-
-<p>Often, we view this as a terrible thing, but in reality, incidents are actually “investments” in supplying the value we are trying to deliver to end users.</p>
+<p>Now that we’ve covered the foundations of building a good incident response plan, let’s talk about remediation efforts and what that looks like for Tailwind Traders.</p>
 
 <h2 id="resources">Resources</h2>
 
@@ -139,9 +99,9 @@
 
 <h2 id="next-steps">Next steps</h2>
 
-<p><a href="2020-02-25-Understanding-the-Full-Lifecycle-of-an-Incident.html">Understanding the Full Lifecycle of An Incident</a></p>
+<p><a href="2020-02-25-Supplying-Context-And-Guidance.html">Supplying Context &amp; Guidance</a></p>
 
-  </div><a class="u-url" href="/fastpages/2020/02/28/2020-02-25-Determining-What-Incidents-Are.html" hidden></a>
+  </div><a class="u-url" href="/fastpages/2020/03/02/2020-02-25-Remediation-Of-Incidents.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

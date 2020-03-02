@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Remediation Of Incidents | Responding To Incidents - OPS20</title>
+<title>Building On-call Rotations | Responding To Incidents - OPS20</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Remediation Of Incidents" />
+<meta property="og:title" content="Building On-call Rotations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result." />
-<meta property="og:description" content="Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result." />
-<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Remediation-Of-Incidents.html" />
-<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Remediation-Of-Incidents.html" />
+<meta name="description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
+<meta property="og:description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
+<link rel="canonical" href="https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Building-Oncall-Rotations.html" />
+<meta property="og:url" content="https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Building-Oncall-Rotations.html" />
 <meta property="og:site_name" content="Responding To Incidents - OPS20" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-28T12:24:51-06:00" />
+<meta property="article:published_time" content="2020-03-02T11:10:11-06:00" />
 <script type="application/ld+json">
-{"description":"Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result.","@type":"BlogPosting","headline":"Remediation Of Incidents","dateModified":"2020-02-28T12:24:51-06:00","datePublished":"2020-02-28T12:24:51-06:00","url":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Remediation-Of-Incidents.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/02/28/2020-02-25-Remediation-Of-Incidents.html"},"@context":"https://schema.org"}</script>
+{"description":"A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.","@type":"BlogPosting","headline":"Building On-call Rotations","dateModified":"2020-03-02T11:10:11-06:00","datePublished":"2020-03-02T11:10:11-06:00","url":"https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Building-Oncall-Rotations.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jasonhand.github.io/fastpages/2020/03/02/2020-02-25-Building-Oncall-Rotations.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,8 +74,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Remediation Of Incidents</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-28T12:24:51-06:00" itemprop="datePublished">
-        Feb 28, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Building On-call Rotations</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-02T11:10:11-06:00" itemprop="datePublished">
+        Mar 2, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -89,9 +89,17 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Although thinking of incidents in terms of phases allows for us to shorten each in their own unique ways, responding to and remediating an incident often begin to blur. Especially when actions to mitigate or improve the situation, have the opposite result.</p>
+    <p>A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.</p>
 
-<p>Now that we’ve covered the foundations of building a good incident response plan, let’s talk about remediation efforts and what that looks like for Tailwind Traders.</p>
+<h2 id="24-x-7">24 x 7</h2>
+
+<p>is a rotation where engineers will be “on-call” for several days in a row. However, most “Elite/High performers” would agree that rotations longer than 3 or 4 days are detrimental to the overall health of engineering staff and therefore the entire system.</p>
+
+<h2 id="follow-the-sun">Follow the Sun</h2>
+
+<p>Follow the sun shifts are nice for distributed teams. These allow for engineers to schedule their “on-call” shifts only during their normal working office hours. As they end their day and go home, engineers in a different time zone can take over.</p>
+
+<p>And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.</p>
 
 <h2 id="resources">Resources</h2>
 
@@ -99,9 +107,9 @@
 
 <h2 id="next-steps">Next steps</h2>
 
-<p><a href="2020-02-25-Supplying-Context-And-Guidance.html">Supplying Context &amp; Guidance</a></p>
+<p><a href="2020-02-25-Remediation-Of-Incidents.html">Remediation of Incidents</a></p>
 
-  </div><a class="u-url" href="/fastpages/2020/02/28/2020-02-25-Remediation-Of-Incidents.html" hidden></a>
+  </div><a class="u-url" href="/fastpages/2020/03/02/2020-02-25-Building-Oncall-Rotations.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
