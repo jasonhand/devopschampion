@@ -17,3 +17,5 @@ In this session, we will explore incident management best practices that will he
 We will also explore the tools Azure provides to get you back into a working state when time is of the essence.
 
 [Determining What Incidents Are](http://devopschampion.com/2020/03/02/2020-02-25-Determining-What-Incidents-Are.html)
+
+[Next](2020-02-25-Updating-Stakeholders.html)
