@@ -11,11 +11,11 @@
 
 # Understanding the Full Lifecycle of an Incident
 
-What we are going over right now is "what happens once we receive an alert?"
+If we start to think of incidents as a normal part of a system, then we can also build some formality around the patterns and practices we inevitably see when people instinctually do what they do when something goes wrong.
 
-What is the next part that takes place?
+From the beginning of a problem to analyzing what and how things happened, we can measure them independantly of each other. By doing so, we can look for improvements in each phase individually. For example, monitoring systems may be working as expected but because an alert was sent to a email distribution group, those who saw it assumed someone else was investigating the problem. The problem persisted for hours.
 
-You can see in the diagram below that there is much more to an incident than just the response.
+An incident can be divided into 5 phases. Detection, response, remediation, analysis, and readiness.
 
 ![Lifecycle Of An Incident](https://jhandcdn.blob.core.windows.net/blob/LifecycleOfAnIncident.png)
 
@@ -39,10 +39,12 @@ Post-incident retrospective exercise to understand the the full the lifecycle of
 
 Implementing knew knowledge and changes to improve and shorten the time and effects of future incidents.
 
+Let's touch on the detection phase just a little more in depth. This is often the best place to start improving your incident response practices. Solid monitoring is the foundation of building reliable systems.
+
 ## Resources
 
 [MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
 
 ## Next steps
 
-[Understanding the Foundations of Incident Response](2020-02-25-Understanding-The-Foundations-of-Incident-Response.html)
+[The Detection Phase of an Incident](/2020-03-04-Detection.html)
