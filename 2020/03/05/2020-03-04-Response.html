@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Establishing On-call Roles | Devops Champion</title>
+<title>Response | Devops Champion</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Establishing On-call Roles" />
+<meta property="og:title" content="Response" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Primary Responder" />
-<meta property="og:description" content="Primary Responder" />
-<link rel="canonical" href="http://devopschampion.com/2020/03/04/2020-02-25-Establishing-Oncall-Roles.html" />
-<meta property="og:url" content="http://devopschampion.com/2020/03/04/2020-02-25-Establishing-Oncall-Roles.html" />
+<meta name="description" content="Once our detection efforts have been configured to send actionable alerts to the people who build the systems, we need to make sure they are sending those alerts to the right people." />
+<meta property="og:description" content="Once our detection efforts have been configured to send actionable alerts to the people who build the systems, we need to make sure they are sending those alerts to the right people." />
+<link rel="canonical" href="http://devopschampion.com/2020/03/05/2020-03-04-Response.html" />
+<meta property="og:url" content="http://devopschampion.com/2020/03/05/2020-03-04-Response.html" />
 <meta property="og:site_name" content="Devops Champion" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-03-04T10:19:13-06:00" />
+<meta property="article:published_time" content="2020-03-05T09:33:17-06:00" />
 <script type="application/ld+json">
-{"description":"Primary Responder","@type":"BlogPosting","headline":"Establishing On-call Roles","dateModified":"2020-03-04T10:19:13-06:00","datePublished":"2020-03-04T10:19:13-06:00","url":"http://devopschampion.com/2020/03/04/2020-02-25-Establishing-Oncall-Roles.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://devopschampion.com/2020/03/04/2020-02-25-Establishing-Oncall-Roles.html"},"@context":"https://schema.org"}</script>
+{"description":"Once our detection efforts have been configured to send actionable alerts to the people who build the systems, we need to make sure they are sending those alerts to the right people.","@type":"BlogPosting","headline":"Response","dateModified":"2020-03-05T09:33:17-06:00","datePublished":"2020-03-05T09:33:17-06:00","url":"http://devopschampion.com/2020/03/05/2020-03-04-Response.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://devopschampion.com/2020/03/05/2020-03-04-Response.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,8 +74,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Establishing On-call Roles</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-04T10:19:13-06:00" itemprop="datePublished">
-        Mar 4, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Response</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-05T09:33:17-06:00" itemprop="datePublished">
+        Mar 5, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -89,39 +89,34 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="primary-responder">Primary Responder</h2>
+    <p>Once our detection efforts have been configured to send actionable alerts to the people who build the systems, we need to make sure they are sending those alerts to the <em>right</em> people.</p>
 
-<p>The first role we need to talk about is the “Primary Responder” – the Primary “On-call” engineer.</p>
+<h2 id="right-people">Right People</h2>
 
-<h2 id="secondary-responder">Secondary Responder</h2>
+<p>How do you know who the right people are? In most cases it is situational. A few things that can be done to help establish some formatlity and standard around responding to incidents is through the use of roles, rosters, and rotations. We’ll go more in depth on what each of those are soon.</p>
 
-<p>Then we have the secondary responder – who is there as back up -Another engineer who can step in if the primary responder is unavailable or unreachable. Or if they just need another pair of eyes.</p>
+<h2 id="tooling">Tooling</h2>
 
-<h2 id="incident-commander">Incident Commander</h2>
+<p>The right person for the job needs the right tools for the job. If someone is responding to issue they need to get busy immediately. Making sure the right monitoring, communications, and admin access is provided is also important. People should be familiar with the tooling and know how and where to find additional resources to help diagnose, theorized, and triage.</p>
 
-<p>Another key role to identify, in many cases, is the incident commander. An incident commander can be extremely helpful when you have got a large-scale outage that effects a lot of different components or requires coordination across many teams and different systems. They are great for making sure that engineers stay focused and they are working on their own remediation efforts… Ensuring people are not stepping on each other or undoing each other’s work.  It is good to have a central person who can track what is going on and who is doing what.</p>
+<h3 id="diagnose">Diagnose</h3>
 
-<h2 id="communication-coordinator">Communication Coordinator</h2>
+<p>Everyone goes through problems. Sometimes routinely throughout the day in fact. When something doesn’t go as expected or breaks entirely our impulse is to fix it. In order to do so we must first have a look at what’s currently observable. What do we know <em>right now?</em> What is the status? Who and what is impacted? What hints or clues are there? What information do we have to work with?</p>
 
-<p>The Communication Coordinator is meant to be the person working in conjunction with the incident commander to share more information beyond those who are in the firefight actively working to recover from the incident itself. That could be customers. It could be the sales and marketing teams. Maybe your customer support. There are many people within an organization who need to be made aware of what’s taking place and the status around how things are progressing. It’s always good to put someone in charge of managing that communication and making sure that other stakeholders are aware of what is happening and what’s being done.</p>
+<h3 id="theorize">Theorize</h3>
 
-<h2 id="scribe">Scribe</h2>
+<p>Once information has been obtained, we begin to theorize next best steps.
+What action can we take to minimize or stop the impact? What are the repurcussions of that action? Will something else go wrong? If we take one action, what result do we expect? In very brief moments we are creatively thinking through as many possible scenarios to restore service as we can. And then stack ranking them based on our own calculations on the probability of success.</p>
 
-<p>The scribe’s role is to document the conversation in as much detail as possible. Teams commonly use phone bridges, conference calls, or video chat to get everyone together and try to understand what is going on, which can certainly help create space for the conversation. However, it is difficult for us to go through and understand in detail what the engineers were saying and doing unless it is transcribed. As a result, a scribe is that person who can help us document as much as possible to review later. What were people saying, doing, feeling, and even experiencing?  It is all data to be analyzed – but only if we capture it.</p>
+<h2 id="triage">Triage</h2>
 
-<h2 id="subject-matter-experts">Subject Matter Experts</h2>
+<p>At some point we all need help. That could be access to an admin account, theories from subject matter experts, someone to amplify updates to a broader audience. Rarely are incidents viewed as a success if a single person did it all and did it all flawlessly.</p>
 
-<p>It’s quite common within on-call rosters to identify subject matter experts, so that early responders know who to escalate too quickly. These people should not be on call all the time, of course, but we do want to be able to identify who is our database expert. Who is our front-end expert? Who are the people that we can reach out to if our primary and secondary responders are not able to diagnose and resolve the issue themselves?</p>
+<p>Regardless of the size of your response team, by isolating it as a phase in the incident lifecycle, we can examine this section of the timeline for improvements on how we coordinate our response. If it took an excessive amount of time for the engineering team to correct the payment processor problem simply because it took too long to find the right person, with the right tool, and with the appropriate level of access then there are some clear opportunities for improvement right there.</p>
 
-<h2 id="resources">Resources</h2>
+<p><a href="/2020-03-04-Remediation.html">Remediation</a></p>
 
-<p><a href="https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/">MS Learn: Improve Incident Response with Alerting in Azure</a></p>
-
-<h2 id="next-steps">Next steps</h2>
-
-<p><a href="2020-02-25-Building-Oncall-Rosters.html">Building On-call Rosters</a></p>
-
-  </div><a class="u-url" href="/2020/03/04/2020-02-25-Establishing-Oncall-Roles.html" hidden></a>
+  </div><a class="u-url" href="/2020/03/05/2020-03-04-Response.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

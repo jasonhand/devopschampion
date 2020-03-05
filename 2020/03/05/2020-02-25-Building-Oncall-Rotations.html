@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Measuring Incident Response | Devops Champion</title>
+<title>Building On-call Rotations | Devops Champion</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Measuring Incident Response" />
+<meta property="og:title" content="Building On-call Rotations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The systems we work in eventually have problems. They are built, maintained, and supported by technolgists such as yourself. And when an issue inevitably occurs, someone needs to take action to restore services." />
-<meta property="og:description" content="The systems we work in eventually have problems. They are built, maintained, and supported by technolgists such as yourself. And when an issue inevitably occurs, someone needs to take action to restore services." />
-<link rel="canonical" href="http://devopschampion.com/2020/03/04/2020-02-25-Measuring-Incident-Response.html" />
-<meta property="og:url" content="http://devopschampion.com/2020/03/04/2020-02-25-Measuring-Incident-Response.html" />
+<meta name="description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
+<meta property="og:description" content="A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others." />
+<link rel="canonical" href="http://devopschampion.com/2020/03/05/2020-02-25-Building-Oncall-Rotations.html" />
+<meta property="og:url" content="http://devopschampion.com/2020/03/05/2020-02-25-Building-Oncall-Rotations.html" />
 <meta property="og:site_name" content="Devops Champion" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-03-04T10:19:13-06:00" />
+<meta property="article:published_time" content="2020-03-05T09:33:17-06:00" />
 <script type="application/ld+json">
-{"description":"The systems we work in eventually have problems. They are built, maintained, and supported by technolgists such as yourself. And when an issue inevitably occurs, someone needs to take action to restore services.","@type":"BlogPosting","headline":"Measuring Incident Response","dateModified":"2020-03-04T10:19:13-06:00","datePublished":"2020-03-04T10:19:13-06:00","url":"http://devopschampion.com/2020/03/04/2020-02-25-Measuring-Incident-Response.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://devopschampion.com/2020/03/04/2020-02-25-Measuring-Incident-Response.html"},"@context":"https://schema.org"}</script>
+{"description":"A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.","@type":"BlogPosting","headline":"Building On-call Rotations","dateModified":"2020-03-05T09:33:17-06:00","datePublished":"2020-03-05T09:33:17-06:00","url":"http://devopschampion.com/2020/03/05/2020-02-25-Building-Oncall-Rotations.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://devopschampion.com/2020/03/05/2020-02-25-Building-Oncall-Rotations.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -74,13 +74,13 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Measuring Incident Response</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-04T10:19:13-06:00" itemprop="datePublished">
-        Mar 4, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Building On-call Rotations</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-05T09:33:17-06:00" itemprop="datePublished">
+        Mar 5, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>
 
@@ -89,27 +89,17 @@
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>The systems we work in eventually have problems. They are built, maintained, and supported by technolgists such as yourself. And when an issue inevitably occurs, someone needs to take action to restore services.</p>
+    <p>A rotation is a scheduled shift. Engineers takes the “on-call” responsibility for their own specific recurring rotation. There are several types of shifts that you can create – some more common than others.</p>
 
-<p>Many organizations don’t currently have an incident response plan in place. In fact, efforts to recover from service disruptions rarely follow any kind of repeatable and measured framework at all. Engineers react rather than respond.</p>
+<h2 id="24-x-7">24 x 7</h2>
 
-<p>With the increased reliance on digital services and their underlying technology it’s more important than ever to establish an explicit response plan. There are small steps that you could take immediately so that when the next problem occurs, everyone knows what to do. The incident itself can be viewed not just as an outage but an opportunity to learn.</p>
+<p>is a rotation where engineers will be “on-call” for several days in a row. However, most “Elite/High performers” would agree that rotations longer than 3 or 4 days are detrimental to the overall health of engineering staff and therefore the entire system.</p>
 
-<h2 id="ttr">TTR</h2>
+<h2 id="follow-the-sun">Follow the Sun</h2>
 
-<p>Are you familiar with the acronym TTR?</p>
+<p>Follow the sun shifts are nice for distributed teams. These allow for engineers to schedule their “on-call” shifts only during their normal working office hours. As they end their day and go home, engineers in a different time zone can take over.</p>
 
-<p>It is known as the “Time to Recover” or also sometimes referred to as the “time to remediate” or “time to restore.”</p>
-
-<p>In other words, the total time that it takes for engineers to bring services back online… with regards to the value provided to end users and customers. It is the total duration of time for the incident?</p>
-
-<p>The time to recover will vary from incident to incident and the circumstances around what contributed to the problem will rarely repeat. Because of this, measuring the TTR in aggregate can be a misleading metric. The Mean Time to Recover does not reflect a valuable performance metric on either the uptime of your systems or how well (or poorly) teams can respond to and remediate service disruptions.</p>
-
-<p>While not a perfect metric, it is one in which organizations can begin to measure how teams are performing when it comes to responding to incidents individually. We will need to examine the entire incident timeline to gain a broader understanding of what took place and where improvements can be made.</p>
-
-<p>Most anyone who works with technology will agree that the complete prevention of problems is not very realistic.</p>
-
-<p>Instead, we must do better at knowing when something is wrong and being able to respond to it in an effective way.</p>
+<p>And of course, there are many ways to customize shifts, especially for weekends when engineers need more flexibility. Engineers should be able to hand off the role to someone when personal conflicts arise.</p>
 
 <h2 id="resources">Resources</h2>
 
@@ -117,9 +107,9 @@
 
 <h2 id="next-steps">Next steps</h2>
 
-<p><a href="2020-02-25-Establishing-Oncall-Roles.html">Establishing On-call Roles</a></p>
+<p><a href="2020-02-25-Remediation-Of-Incidents.html">Remediation of Incidents</a></p>
 
-  </div><a class="u-url" href="/2020/03/04/2020-02-25-Measuring-Incident-Response.html" hidden></a>
+  </div><a class="u-url" href="/2020/03/05/2020-02-25-Building-Oncall-Rotations.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
