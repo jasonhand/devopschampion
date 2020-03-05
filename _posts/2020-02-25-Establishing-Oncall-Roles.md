@@ -13,9 +13,15 @@
 
 # Establishing On-call Roles
 
+Creating a repeatable response plan means establishing who does what when something goes wrong. We don't want there to be any question around who is supposed to be doing what.
+
+Because of this, it is important to establish roles and the associated expectations. This isn't a separation of duties exercise. In fact, we want to encourage less of that. It is however, a way of establishing better coordination and communication. It prevents people from stepping on each others toes while enabling cross-collaboration amongst not only on-call rosters, but an entire organization.
+
 ## Primary Responder
 
-The first role we need to talk about is the “Primary Responder” – the Primary “On-call” engineer.
+The first role we need to talk about is the “Primary Responder” – the Primary “On-call” engineer. 
+
+This person is expected to acknowledge their awareness of an incident once the alert has been received.
 
 ## Secondary Responder
 
@@ -37,10 +43,12 @@ The scribe’s role is to document the conversation in as much detail as possibl
 
 It’s quite common within on-call rosters to identify subject matter experts, so that early responders know who to escalate too quickly. These people should not be on call all the time, of course, but we do want to be able to identify who is our database expert. Who is our front-end expert? Who are the people that we can reach out to if our primary and secondary responders are not able to diagnose and resolve the issue themselves?
 
+Let's take a closer look at each of these roles to better understand their place within our incident response efforts.
+
 ## Resources
 
 [MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
 
 ## Next steps
 
-[Building On-call Rosters](2020-02-25-Building-Oncall-Rosters.html)
+[The Primary Responder](2020-03-05-Primary-Responder.html)
