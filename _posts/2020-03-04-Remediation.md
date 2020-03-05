@@ -1,5 +1,5 @@
 ---
-- title: "Remediation"
+- title: "Remediation Phase of an Incident"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -9,7 +9,7 @@
 - metadata_key2: sre
 ---
 
-# Remediation
+# Remediation Phase of an Incident
 
 The remediation phase is the blurriest of them all. A big reason is that sometimes there's no difference between what takes place during the response and an action intended to improve the situation (i.e. remediation step).
 

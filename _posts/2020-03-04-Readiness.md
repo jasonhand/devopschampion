@@ -1,5 +1,5 @@
 ---
-- title: "Readiness"
+- title: "Readiness Phase of an Incident"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -9,7 +9,7 @@
 - metadata_key2: sre
 ---
 
-# Readiness
+# Readiness Phase of an Incident
 
 During and after a post-incident review many ideas will surface around how to improve not only various aspects of each phase of the lifecycle but also how the team can improve in other areas. Communication for example. 
 

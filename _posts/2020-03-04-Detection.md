@@ -1,5 +1,5 @@
 ---
-- title: "Detection"
+- title: "Detection Phase of an Incident"
 - summary: "Your systems are down! Customers are calling. Every moment counts. What do you do?"
 - toc: true
 - branch: master
@@ -9,7 +9,7 @@
 - metadata_key2: sre
 ---
 
-# Detection
+# Detection Phase of an Incident
 
 The methods used to determine when we have a problem have changed over the years.
 
