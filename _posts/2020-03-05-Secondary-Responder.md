@@ -21,4 +21,4 @@ Then we have the secondary responder – who is there as back up -Another engine
 
 ## Next steps
 
-[Incident Commander](2020-03-05-Incident-Commander.html)
+[The Incident Commander](2020-03-05-Incident-Commander.html)

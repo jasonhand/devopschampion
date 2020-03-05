@@ -25,7 +25,7 @@ In today's connected world, no matter how complex or simple a system appears to 
 
 It's entirely possible that all systems appear healthy and no alarms are going off when in reality users aren't able to complete a shopping purchase due to a third party payment processor. No amount of monitoring for memory or network performance would have tipped off engineers or leadership to this business impacting problem.
 
-Every system is different and there are certainly still legitimate reasons to set up alerts for problems at the component level. However, by and large if we are planning to get engineers involved (especially outside of office hours) then we need to make sure the problem is real, it's impacting the business, and it requires human intervention immediately.
+Every system is different and while there may be legitimate reasons to set up alerts for problems at the component level. However, by and large if we are planning to get engineers involved (especially outside of office hours) then we need to make sure the problem is real, it's impacting the business, and it requires human intervention immediately.
 
 If an alert isn't actionable - meaning it requires a person or group of people to respond and investigate right away then it's not an incident.
 
