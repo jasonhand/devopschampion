@@ -39,4 +39,8 @@ Once service is restored and things return to normal it's important to set aside
 
 This takes us to our next phase of the incident lifecycle - analysis.
 
+## Resources
+
+[MS Learn: Improve Incident Response with Alerting in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+
 [Analysis Phase of an Incident](2020-03-04-Analysis.html)

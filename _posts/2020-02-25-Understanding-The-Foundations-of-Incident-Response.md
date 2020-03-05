@@ -13,9 +13,17 @@
 
 # Understanding the Foundations of Incident Response
 
-If we are going to talk about the foundations of building reliable systems including the foundations of a good incident response plan, I think the best place to start is by determining “Who is expected to respond to problems?” and “How do let them know?” The best place to start, is to design what is known as a “Roster” or an on-call team. We’ll talk more about rosters in a moment. First, we’ll talk about some of the “Roles” of the people that make up that “Roster”.  And last, we’ll talk about what a rotation is.
+The foundations of building reliable systems including a good incident response plan, have to start with determining “Who is expected to respond to problems?” and “How do let them know?”.
 
-## Rosters/Roles/Rotations
+The best place to start, is to design what is to establish roles, rosters, and rotations.
+
+**Roles :** Well defined responsibilities and expectations of individuals on an on-call team (or roster). The **Primary Responder**, for example.
+
+**Rosters :** A group of individuals, each with their own assigned role and understood responsibilities and expectations. The mobile *"on-call"* team, consisting of multiple members each with thier own assigned role.
+
+**Rotations :**A scheduled shift for individuals where they are *"on-call"* for a defined period of time. A 24 x n rotation where someone is the** Primary Responder**, for example.
+
+It's worth looking at each of these groups a little closer, so let's do that now.
 
 ## Resources
 
