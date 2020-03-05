@@ -41,4 +41,4 @@ In conversations about what took place with the payment processor incident it is
 
 ## Next steps
 
-[Response](2020-03-04-Response.html)
+[Response Phase of an Incident](/_posts/2020-03-04-Response.md)
