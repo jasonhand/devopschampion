@@ -39,4 +39,4 @@ Once service is restored and things return to normal it's important to set aside
 
 This takes us to our next phase of the incident lifecycle - anayslis.
 
-[Analysis](/2020-03-04-Analysis.html)
+[Analysis](2020-03-04-Analysis.html)
