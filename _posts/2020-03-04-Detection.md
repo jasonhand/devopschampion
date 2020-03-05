@@ -15,7 +15,7 @@ The methods used to determine when we have a problem have changed over the years
 
 Alerting a person to a spike in CPU usage isn't as valuable these days. Especially those in the process of adopting the cloud. Instead, we want to know when our customer is experiencing a problem while using our system.
 
-What the problem is will vary but the methods used to determine when a human needs to get involved have evolved.
+The problems will vary but the methods used to determine when a human needs to get involved have evolved.
 
 By monitoring systems in a way that matches the customer's perspective we can see when they experience a problem rather than we *think* we experienced a problem.
 
@@ -23,7 +23,7 @@ If the customer is experiencing an issue, that's far more important to the busin
 
 In today's connected world, no matter how complex or simple a system appears to be there is much more that goes in to what a user experiences.
 
-It's entirely possible that all systems appear healthy and no alarms are going off when in reality users aren't able to complete shopping purchase due to a third party payment processor. No amount of monitoring for memory or network performance would have tipped you off to this business impacting problem.
+It's entirely possible that all systems appear healthy and no alarms are going off when in reality users aren't able to complete a shopping purchase due to a third party payment processor. No amount of monitoring for memory or network performance would have tipped off engineers or leadership to this business impacting problem.
 
 Every system is different and there are certainly still legitimate reasons to set up alerts for problems at the component level. However, by and large if we are planning to get engineers involved (especially outside of office hours) then we need to make sure the problem is real, it's impacting the business, and it requires human intervention immediately.
 

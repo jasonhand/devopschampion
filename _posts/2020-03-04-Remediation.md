@@ -37,6 +37,6 @@ Just because you can figure out what the problem is in an acceptable amount of t
 
 Once service is restored and things return to normal it's important to set aside time to reflect on what took place, discuss it openly, broadcast what has been learned, and prepare for the future.
 
-This takes us to our next phase of the incident lifecycle - anayslis.
+This takes us to our next phase of the incident lifecycle - analysis.
 
 [Analysis Phase of an Incident](2020-03-04-Analysis.html)
