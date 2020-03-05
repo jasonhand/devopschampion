@@ -19,4 +19,4 @@ Product and engineering teams should work together to prioritize and schedule wo
 
 The bigger win that helps with our readiness efforts is that we have measurements by which we can set goals around.
 
-[Readiness](2020-03-04-Readiness.html)
+[Understanding the Foundations of Incident Response](2020-02-25-Understanding-The-Foundations-of-Incident-Response.html)
