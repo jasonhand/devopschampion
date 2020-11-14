@@ -10,12 +10,12 @@ https://devopschampion.com
 
 Additional Resources:
 
-- [azure.microsoft.com](https://azure.microsoft.com?wt.mc_id=devopschampion-github-jahand)
-- [blogs.msdn.microsoft.com](https://blogs.msdn.microsoft.com/?wt.mc_id=devopschampion-github-jahand)
-- [channel9.msdn.com](https://channel9.msdn.com?wt.mc_id=devopschampion-github-jahand)
-- [code.visualstudio.com](https://code.visualstudio.com?wt.mc_id=devopschampion-github-jahand)
-- [cloudblogs.microsoft.com](https://cloudblogs.microsoft.com?wt.mc_id=devopschampion-github-jahand)
-- [devblogs.microsoft.com](https://devblogs.microsoft.com?wt.mc_id=devopschampion-github-jahand) 
-- [docs.microsoft.com](https://docs.microsoft.com?wt.mc_id=devopschampion-github-jahand)
-- [marketplace.visualstudio.com](https://marketplace.visualstudio.com?wt.mc_id=devopschampion-github-jahand)
-- [techcommunity.microsoft.com](https://techcommunity.microsoft.com?wt.mc_id=devopschampion-github-jahand)
+- [azure.microsoft.com](https://azure.microsoft.com/?WT.mc_id=devops-0000-jahand)
+- [blogs.msdn.microsoft.com](https://blogs.msdn.microsoft.com/?WT.mc_id=devops-0000-jahand)
+- [channel9.msdn.com](https://channel9.msdn.com/?WT.mc_id=devops-0000-jahand)
+- [code.visualstudio.com](https://code.visualstudio.com/?WT.mc_id=devops-0000-jahand)
+- [cloudblogs.microsoft.com](https://cloudblogs.microsoft.com/?WT.mc_id=devops-0000-jahand)
+- [devblogs.microsoft.com](https://devblogs.microsoft.com/?WT.mc_id=devops-0000-jahand) 
+- [docs.microsoft.com](https://docs.microsoft.com/?WT.mc_id=devops-0000-jahand)
+- [marketplace.visualstudio.com](https://marketplace.visualstudio.com/?WT.mc_id=devops-0000-jahand)
+- [techcommunity.microsoft.com](https://techcommunity.microsoft.com/?WT.mc_id=devops-0000-jahand)
